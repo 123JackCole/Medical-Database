@@ -1,0 +1,71 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2042
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{159641D6-6404-4A2A-AE62-294DE0FE8301}") = "JCole_Final", "JCole_Final\JCole_Final.dtproj", "{121A970E-E1DA-439E-BF21-C0A3AD4A2B71}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Documents", "Documents", "{9D112B9C-47D1-4453-9B72-0A76C2F0C564}"
+	ProjectSection(SolutionItems) = preProject
+		JCole_Final\Info 498 Final\Documents\BISolutionWorksheets.xlsx = JCole_Final\Info 498 Final\Documents\BISolutionWorksheets.xlsx
+		..\..\..\..\..\_BISolutions\Info 498 Final\Documents\Final Checklist.xlsx = ..\..\..\..\..\_BISolutions\Info 498 Final\Documents\Final Checklist.xlsx
+		JCole_Final\Info 498 Final\Documents\Final.pptx = JCole_Final\Info 498 Final\Documents\Final.pptx
+		JCole_Final\Info 498 Final\Documents\INFO 498 Final.doc = JCole_Final\Info 498 Final\Documents\INFO 498 Final.doc
+		JCole_Final\Info 498 Final\Documents\JCole_FinalReport.docx = JCole_Final\Info 498 Final\Documents\JCole_FinalReport.docx
+		JCole_Final\Info 498 Final\Documents\JCole_FinalTechnicalDoc.docx = JCole_Final\Info 498 Final\Documents\JCole_FinalTechnicalDoc.docx
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DataFiles", "DataFiles", "{6374D909-1ED7-4F67-8282-DDA71097E3B7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SQLCode", "SQLCode", "{C6A6A1F2-F9BF-4A11-83F2-5846E2D696E2}"
+	ProjectSection(SolutionItems) = preProject
+		JCole_Final\Info 498 Final\SQLCode\Backup Final Databases Job Script.sql = JCole_Final\Info 498 Final\SQLCode\Backup Final Databases Job Script.sql
+		JCole_Final\Info 498 Final\SQLCode\File To OLTP Database ETL Script.sql = JCole_Final\Info 498 Final\SQLCode\File To OLTP Database ETL Script.sql
+		JCole_Final\Info 498 Final\SQLCode\OLTP To DW Database ETL Script.sql = JCole_Final\Info 498 Final\SQLCode\OLTP To DW Database ETL Script.sql
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DataBases", "DataBases", "{4BD59559-D8DD-4836-8F6E-62454F2432E3}"
+	ProjectSection(SolutionItems) = preProject
+		JCole_Final\Info 498 Final\Databases\Create DWClinicReportData.sql = JCole_Final\Info 498 Final\Databases\Create DWClinicReportData.sql
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Bellevue", "Bellevue", "{186ED3F3-E52F-4048-8569-2C79B60414DB}"
+	ProjectSection(SolutionItems) = preProject
+		JCole_Final\Info 498 Final\DataFiles\Bellevue\20100102Visits.csv = JCole_Final\Info 498 Final\DataFiles\Bellevue\20100102Visits.csv
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Kirkland", "Kirkland", "{549584F0-2F56-4D34-8095-081E55299E7D}"
+	ProjectSection(SolutionItems) = preProject
+		JCole_Final\Info 498 Final\DataFiles\Kirkland\20100102Visits.csv = JCole_Final\Info 498 Final\DataFiles\Kirkland\20100102Visits.csv
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Redmond", "Redmond", "{2A0B1295-1A8C-4856-B764-98F32A324F63}"
+	ProjectSection(SolutionItems) = preProject
+		JCole_Final\Info 498 Final\DataFiles\Redmond\20100102Visits.csv = JCole_Final\Info 498 Final\DataFiles\Redmond\20100102Visits.csv
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "BackupCode", "BackupCode", "{84F10AC7-5ACA-40C3-9F12-D47CCC4F1555}"
+	ProjectSection(SolutionItems) = preProject
+		JCole_Final\Info 498 Final\Documents\BackupSQLAgentCode.sql = JCole_Final\Info 498 Final\Documents\BackupSQLAgentCode.sql
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Development|Default = Development|Default
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{121A970E-E1DA-439E-BF21-C0A3AD4A2B71}.Development|Default.ActiveCfg = Development
+		{121A970E-E1DA-439E-BF21-C0A3AD4A2B71}.Development|Default.Build.0 = Development
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{186ED3F3-E52F-4048-8569-2C79B60414DB} = {6374D909-1ED7-4F67-8282-DDA71097E3B7}
+		{549584F0-2F56-4D34-8095-081E55299E7D} = {6374D909-1ED7-4F67-8282-DDA71097E3B7}
+		{2A0B1295-1A8C-4856-B764-98F32A324F63} = {6374D909-1ED7-4F67-8282-DDA71097E3B7}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9733793F-59A6-411D-B0A2-477E14C35085}
+	EndGlobalSection
+EndGlobal
