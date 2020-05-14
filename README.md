@@ -3,7 +3,7 @@ Overview
 The OLTP Databases
 	The two OLTP databases used to fill the data warehouse were given to me as backup (.bak) files. They were easily added to SQL Server by attaching them. The first database, DoctorsSchedules contains scheduling information regarding doctors. The database contains four tables, Clinics, Doctors, Shifts, and DoctorShifts (Figure 1). 
 
-![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Figure 1")
+![alt text](figure1.pdf)
 Figure 1
 The second database, Patients, contains information regarding medical patients. The database contains five tables, Clinics, Doctors, Patients, Procedures, and Visits (Figure 2). 
 
